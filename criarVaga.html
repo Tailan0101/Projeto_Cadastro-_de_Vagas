@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vagas Dev | Vagas para Desenvolvimento de Software</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/criarVaga.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="cabecalho">
+        <div class="logo">
+          <img src="./image/logo.png" alt="logo_perfecto" id="esconde" />
+        </div>
+        <div class="nav">
+          <input type="checkbox" onclick="escondeLogo()" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <div class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="criarVaga.html">sobre</a></li>
+            <li><a href="login.html">login</a></li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <aside>
+          <div class="info-user">
+            <div class="img-user">
+              <img src="image/user.png" alt="" />
+            </div>
+            <div class="nome-user">
+              <h3>Nome Usuario Silva</h3>
+            </div>
+            <div class="cargo-user">
+              <h4>Analista de HR</h4>
+            </div>
+          </div>
+
+          <div class="action">
+            <button>Excluir Vaga</button>
+            <button>Todas as Vagas</button>
+          </div>
+        </aside>
+        <div class="painel">
+          <div class="titulo">
+            <h3>Cadastro de Vagas</h3>
+          </div>
+          <div class="content">
+        <form action="">
+          <div class="form">
+            <div class="cadastro">
+              <label for="">Cargo vaga</label><input type="text" />
+              <div class="separation">
+                  <section>
+              <label for="">Nivel vaga</label><br>
+              <select name="" id="">
+                <option value="0" selected disabled></option>
+                <option value="1">Trainee</option>
+                <option value="2">Junior</option>
+                <option value="3">Junior/Trainee</option>
+                <option value="4">Pleno</option>
+                <option value="5">Senior</option>
+                <option value="6">Pleno/Senior</option>
+              </select>
+                </section>
+                <section>
+              <label for="">Localização</label>
+              <input type="text" />
+            </section>
+            </div>
+              <label for="">Descrição</label>
+              <textarea name="" id="" cols="30" rows="4"></textarea>
+            </div>
+            <div class="avatar">
+              <h4>Avatar da Vaga</h4>
+              <div class="icones">
+              <section>
+                <input
+                  type="radio"
+                  name="1"
+                  id="financeiro"
+                  value="financeiro"
+                />
+                <label for="financeiro"
+                  ><img src="image/Financeiro.png" alt=""
+                /></label>
+                <p>Financeiro</p>
+              </section>
+
+              <section>
+                <input
+                  type="radio"
+                  name="1"
+                  id="analista_rh"
+                  value="analista_rh"
+                />
+                <label for="analista_rh"
+                  ><img src="image/Analista_RH.png" alt=""
+                /></label>
+                <p>Analista RH</p>
+              </section>
+
+              <section>
+                <input type="radio" name="1" id="dev" />
+                <label for="dev"><img src="image/web.png" alt="" /></label>
+                <p>Desenvolvimento</p>
+              </section>
+
+              <section>
+                <input type="radio" name="1" id="negocios" />
+                <label for="negocios"
+                  ><img src="image/Analysis.png" alt=""
+                /></label>
+                <p>Negocios</p>
+              </section>
+
+              <section>
+                <input type="radio" name="1" id="recrutador" />
+                <label for="recrutador"
+                  ><img src="image/Recrutador.png" alt=""
+                /></label>
+                <p>Recrutador</p>
+              </section>
+
+              <section>
+                <input type="radio" name="1" id="tester" />
+                <label for="tester"
+                  ><img src="image/testador.png" alt=""
+                /></label>
+                <p>Tester</p>
+              </section>
+              </div>
+            </div>
+          </div>
+          <div class="info-button">
+            <button class="button" type="reset">LIMPAR</button>
+            <a class="button" type="submit">Salvar</a>
+        </div>
+      </form>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <div class="rodape">
+      <hr />
+      <div class="cop">
+        <div>Copyright 2020 | Todos os Direitos Reservados</div>
+        <div>Desenvolvido por Tailan Vieira</div>
+      </div>
+    </div>
+  </footer>
+  <!--importante biblioteca carregar antes do arquivo javascripty-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="javascript/home.js"></script>
+</html>

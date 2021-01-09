@@ -1,0 +1,110 @@
+.container {
+    margin: 0 auto;
+    width: 90vw;
+    background: border-box;
+    display: flex;
+}
+.img-user img {
+        width: 6rem;
+    }
+.img-user {
+        background: #fff;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+aside {
+    border-radius: 10px;
+    background: linear-gradient(325.54deg, #84bc41 0%, #6fbb14f7 100%);
+    height: clamp(25rem, 28vw, 40rem);
+    width: 20vw;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.action {
+        display: grid;}
+.nome-user h3, h4 {
+            color: #fff;
+            font-weight: 500;
+            margin: 1rem;
+        }
+.painel {
+            width: 100%;
+            background: #fff;
+            margin:0 1rem;
+            border-radius: 10px;
+}
+.titulo {
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 24px;
+    padding: 4px 16px;
+    background-color: #84bc41;
+    color: rgb(255, 255, 255);
+    border: 2px solid #84bc41;
+    box-shadow: rgba(153, 153, 153, 0.2) 0px 3px 1px -2px, rgba(153, 153, 153, 0.14) 0px 2px 2px 0px, rgba(153, 153, 153, 0.12) 0px 1px 5px 0px;
+    font-weight: 500!important;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+input[type='radio'] {
+    display: none;
+}
+.cadastro {
+    display: grid;
+    width: 35vw;
+    box-sizing: border-box;
+    padding: 1rem;}
+.icones {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;}
+        
+        label {
+            font-weight: 600;
+            color: #425563;}
+            .icones img {
+                margin: 0 auto;
+                width: 70px;
+            }
+            .cadastro label {
+                padding: 0.7rem 0 0.4rem 0;}
+                input, textarea, select {
+                    font-size: 16px;
+                    background: transparent;
+                    border-style: solid;
+                    border-bottom: 1px solid #425563 !important;
+                    outline: none;
+                    padding-bottom: 7px;
+                    box-shadow: none;
+                    border-width: 0;
+                    margin-bottom: 1.5rem;
+                  }
+                input,textarea {
+                  font-family: "Raleway";
+                  color:#000;
+                }
+                .separation select, .separation input {
+                    margin-top: 1rem!important;
+                    width: 100%;
+                }
+                .separation select {
+                        width: 85%;
+                    }                
+                .avatar h4 {
+                    font-size: 25px;
+                    color: #000;
+                    text-align: center;
+                    padding: 1rem;
+                }
+                .separation {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;}
